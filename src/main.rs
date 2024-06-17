@@ -9,7 +9,7 @@ fn main() {
     // println!("秘密の数字は: {}", secret_number);
 
     loop {
-        println!("答えだと思う数字を入力してね！");
+        println!("1から100までで答えだと思う数字を入力してね！");
         let mut guess = String::new();
 
         io::stdin()
